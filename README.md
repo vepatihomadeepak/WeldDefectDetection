@@ -176,7 +176,7 @@ python app.py
 streamlit run src/app.py
 ```
 
-Open browser at **http://localhost:8501**
+Open browser at **https://welddefectdetection.streamlit.app/**
 
 ### 6. Command Line Inference
 
