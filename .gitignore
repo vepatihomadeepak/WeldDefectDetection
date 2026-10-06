@@ -1,0 +1,77 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==============================
+# Virtual Environment
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+*.env
+.streamlit/secrets.toml
+
+# ==============================
+# Dataset - DO NOT PUSH
+# ==============================
+data/train/
+data/val/
+data/test/
+data/raw/
+
+# YOLO generated cache
+*.cache
+
+# ==============================
+# YOLO Training Outputs
+# ==============================
+runs/
+wandb/
+mlruns/
+
+# ==============================
+# Model Weights
+# ==============================
+*.onnx
+*.engine
+*.trt
+
+# Ignore pretrained weights
+yolov8n.pt
+yolov8n-seg.pt
+
+# Keep your final trained model
+!models/
+!models/best.pt
+
+# ==============================
+# Temporary / Generated Files
+# ==============================
+*.log
+dist/
+build/
+*.egg-info/
